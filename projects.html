@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Sabbir Hossain</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-icon">✦</span><span class="logo-text">Sabbir Hossain</span></a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cv.html" class="btn-nav">Download CV</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-bg"></div>
+  <div class="container">
+    <p class="section-tag">What I've Built</p>
+    <h1 class="page-title">Projects</h1>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Filter Buttons -->
+    <div class="gallery-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="java">Java</button>
+      <button class="filter-btn" data-filter="cpp">C++</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="ai">AI / ML</button>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card" data-cat="java" data-num="PROJECT 01">
+        <div class="project-header">
+          <div class="project-icon">⚡</div>
+          <div class="project-links">
+            <a href="https://github.com/SabbirBot007/WebServerUsingJava" target="_blank" class="project-link-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div class="project-tag-row">
+          <span class="project-tag">Java</span>
+          <span class="project-tag">NIO</span>
+          <span class="project-tag">Networking</span>
+          <span class="project-tag">Multithreading</span>
+        </div>
+        <h3 class="project-title">High-Performance Java NIO Web Server</h3>
+        <ul class="project-points">
+          <li>Developed a lightweight, non-blocking web server using Java NIO, capable of handling high-concurrency workloads through selector-based architecture and thread pooling.</li>
+          <li>Benchmarked performance using <strong>wrk</strong>, achieving over <strong>117,000 requests/sec</strong> and processing <strong>352,000+ requests in 30 seconds</strong>, demonstrating strong optimization and scalability skills.</li>
+          <li>Collaborated with AI tools (ChatGPT, Claude) for ideation and debugging, showcasing adaptability and resourcefulness.</li>
+        </ul>
+        <div class="project-footer">
+          <a href="https://github.com/SabbirBot007/WebServerUsingJava" target="_blank" class="project-full-link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card" data-cat="cpp" data-num="PROJECT 02">
+        <div class="project-header">
+          <div class="project-icon">⌨️</div>
+          <div class="project-links">
+            <a href="https://github.com/SabbirBot007/WindowsTextExpander" target="_blank" class="project-link-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div class="project-tag-row">
+          <span class="project-tag">C++</span>
+          <span class="project-tag">Windows API</span>
+          <span class="project-tag">GDI32</span>
+          <span class="project-tag">Desktop App</span>
+        </div>
+        <h3 class="project-title">Windows Text Expander (C++)</h3>
+        <ul class="project-points">
+          <li>Created a basic text expansion utility for Windows using C++ and GDI32, enabling predefined shortcuts like <strong>"hru" → "How are you?"</strong></li>
+          <li>Explored compiler usage and Windows API interaction, laying groundwork for future enhancements such as dynamic shortcut management and user interface design.</li>
+          <li>Collaborated with AI tools (ChatGPT, Claude) for ideation and debugging, showcasing adaptability and resourcefulness.</li>
+        </ul>
+        <div class="project-footer">
+          <a href="https://github.com/SabbirBot007/WindowsTextExpander" target="_blank" class="project-full-link">View on GitHub →</a>
+        </div>
+      </div>
+
+      <!-- PLACEHOLDER CARD — add your future projects here -->
+      <div class="project-card project-placeholder" data-cat="web" data-num="COMING SOON">
+        <div class="project-header">
+          <div class="project-icon">🚧</div>
+        </div>
+        <div class="project-tag-row">
+          <span class="project-tag">Coming Soon</span>
+        </div>
+        <h3 class="project-title">Next Project</h3>
+        <p style="color:var(--text-dim);font-size:0.9rem;line-height:1.7;margin-top:0.75rem">
+          Working on something new... Stay tuned!<br/><br/>
+          <small>To add a new project, copy one of the <code>project-card</code> blocks in <code>projects.html</code> and update the content.</small>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="logo"><span class="logo-icon">✦</span><span class="logo-text">Sabbir Hossain</span></div>
+    <p class="footer-copy">&copy; 2025 Sabbir Hossain. All rights reserved.</p>
+    <div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="cv.html">CV</a></div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+  // Projects filter
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      projectCards.forEach(card => {
+        card.style.display = (filter === 'all' || card.dataset.cat === filter) ? '' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>

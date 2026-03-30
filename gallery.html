@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Sabbir Hossain</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="logo-icon">✦</span><span class="logo-text">Sabbir Hossain</span></a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cv.html" class="btn-nav">Download CV</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-bg"></div>
+  <div class="container">
+    <p class="section-tag">Visual Stories</p>
+    <h1 class="page-title">Gallery</h1>
+  </div>
+</div>
+
+<!-- GALLERY CAROUSEL -->
+<section class="section carousel-section" id="carousel">
+  <div class="container">
+    <h2 class="section-title">Captured Moments</h2>
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide">
+          <img src="assets/carousel1.jpg" alt="Moment 1" onerror="this.parentElement.style.background='#1e293b';this.style.display='none'"/>
+          <div class="carousel-caption">Intra University Programming Contest 2023, NUBTK</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/carousel2.JPG" alt="Moment 2" onerror="this.parentElement.style.background='#1e293b';this.style.display='none'"/>
+          <div class="carousel-caption">Intra University Programming Contest 2024, NUBTK</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/carousel3.jpg" alt="Moment 3" onerror="this.parentElement.style.background='#1e293b';this.style.display='none'"/>
+          <div class="carousel-caption">Intra University Programming Contest 2025, NUBTK</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/carousel4.jpg" alt="Moment 4" onerror="this.parentElement.style.background='#1e293b';this.style.display='none'"/>
+          <div class="carousel-caption">Team: NUBTK_ProbKillers</div>
+        </div>
+      </div>
+      <button class="carousel-btn prev" id="carouselPrev">&#8592;</button>
+      <button class="carousel-btn next" id="carouselNext">&#8594;</button>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <img id="lightboxImg" src="" alt=""/>
+  <p id="lightboxCaption"></p>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="logo"><span class="logo-icon">✦</span><span class="logo-text">Sabbir Hossain</span></div>
+    <p class="footer-copy">&copy; 2025 Sabbir Hossain. All rights reserved.</p>
+    <div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="cv.html">CV</a></div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
